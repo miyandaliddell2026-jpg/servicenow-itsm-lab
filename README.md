@@ -52,7 +52,7 @@ Created and worked a full incident using the Service Desk → Incidents module f
 
 **Scenario:** User Abel Tuter reports Microsoft Outlook has stopped working with error: *"Cannot connect to the Exchange server."* Issue is isolated to their Wi-Fi connected laptop — other users in the same building are unaffected.
 
-![Incident Form — INC0010002](screenshots/step3.png)
+![Incident Form — INC0010002](screenshots/step2.png)
 
 | Field | Value |
 |---|---|
@@ -72,7 +72,7 @@ Created and worked a full incident using the Service Desk → Incidents module f
 
 Work notes document investigation steps internally — not visible to the caller — keeping the audit trail separate from customer-facing communication.
 
-![Work Notes and Activities Audit Trail](screenshots/step4.png)
+![Work Notes and Activities Audit Trail](screenshots/step3.png)
 
 **Work notes posted:**
 > *"Contacted user. Confirmed error message. Outlook profile appears corrupted. Attempting profile repair. Instructed user to use OWA (webmail) in the interim. Resolution ETA: 30 minutes."*
@@ -85,7 +85,7 @@ The Activities panel captures every field change with a timestamp and author —
 
 Resolved the incident through the Resolution Information tab with full documentation of the fix. ServiceNow enforces a mandatory Resolution Code before closure — attempting to close without one blocks the save.
 
-![Resolution Notes and SLA Panel — INC0010002](screenshots/step5.png)
+![Resolution Notes and SLA Panel — INC0010002](screenshots/step4.png)
 
 **Resolution notes:**
 > *"Rebuilt Outlook profile. Removed and re-added the Exchange account. User confirmed Outlook is working. Issue was a corrupted OST file. Closed with user confirmation."*
@@ -107,7 +107,7 @@ Built a complete Service Catalog item from scratch — transforming a static cat
 
 **Why this matters:** Catalog items let users request common IT services without calling the help desk. Each request auto-generates a structured ticket, reducing ticket volume for routine work and speeding up fulfillment.
 
-![Catalog Item Variables — New Laptop Request](screenshots/step6.png)
+![Catalog Item Variables — New Laptop Request](screenshots/step5.png)
 
 **Variables added to the request form:**
 
@@ -146,13 +146,13 @@ Created a Normal change request for a security patch deployment and walked it th
 
 After submitting, an approval request was sent to the Change Manager. The approval record shows the approver, the change request being approved, and the full activity log.
 
-![Change Manager Approval Record — CHG0030001](screenshots/step7.png)
+![Change Manager Approval Record — CHG0030001](screenshots/step6.png)
 
 ### Full approval chain — CAB triggered
 
 Once the Change Manager approved, the workflow automatically escalated to a full CAB (Change Advisory Board) review — triggering approval requests to 6 additional cross-functional stakeholders.
 
-![Full Approvers Tab — 8 approvers, CAB triggered](screenshots/step8.png)
+![Full Approvers Tab — 8 approvers, CAB triggered](screenshots/step7.png)
 
 | Approver | Group | State |
 |---|---|---|
@@ -184,7 +184,7 @@ Built a custom report using the Reports module to visualize incident volume acro
 | Group by | Priority |
 | Aggregation | Count |
 
-![Incident Volume by Priority — Saved Bar Chart](screenshots/step9.png)
+![Incident Volume by Priority — Saved Bar Chart](screenshots/step8.png)
 
 **Results:**
 
@@ -214,7 +214,7 @@ Built a custom report using the Reports module to visualize incident volume acro
 
 ## 8. Full Screenshot Walkthrough
 
-All 25 lab screenshots are available in the [/screenshots](./screenshots) folder covering every step from PDI provisioning through report creation.
+All lab screenshots are available in the [/screenshots](./screenshots) folder.
 
 ---
 
